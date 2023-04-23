@@ -1,0 +1,314 @@
+.nokia ul{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    margin-left: 950px;
+    padding-top: 13px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    max-width: 95%;
+    margin:0 auto;
+}
+.nokia{
+    height:45px;
+    background-color:rgba(158, 158, 158, 0.1); 
+}
+.nokia ul li:hover{
+    border-bottom: 2px solid blue;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: blue;
+    height: 70px;
+}
+.heading ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.heading ul li{
+    width: max-content;
+    font-size: 15px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 23px;
+}
+.bgimage{
+    background-image:url(./images/page-header-cutout-desktop_5.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bgimage h1{
+    font-size: 45px;
+    padding-top: 80px;
+font-weight: lighter;
+width: 650px;
+}
+.bgimage p{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.btn{
+    color: white;
+    background-color: rgb(22, 131, 240);
+    padding: 15px 20px;
+    font-size: 15px;
+border-radius: 7px;
+font-weight: bold;
+border: none;
+}
+.btn:hover{
+background-color: blue;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+   margin-top: 30px;
+  gap: 15px;
+}
+.arrow i{
+    width: 50px;height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(212, 205, 205, 0.572);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px  solid  white;
+    
+}
+.demo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.text{
+    width: 50%;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+}
+.text p{
+    margin: 25px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+.text span{
+    font-size: 32px;
+    font-weight:100;
+line-height: 50px;
+}
+.bgcolor{
+    background-image: url(./images/backraund.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    margin-top: -10px;
+}
+.bgcolor h1{
+    padding-top: 80px;
+    color: white;
+}
+.boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+.box{
+    width: 32%;
+}
+.box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.box span{
+    font-size: 25px;
+}
+.box i{
+    font-size: 22px;
+    color: blue;
+    margin: 10px 0 0 10px;
+}
+.box p{
+    font-size: 17px;
+    margin: 20px 0;
+}
+.box3{
+    margin-top: 18px;
+}
+.bgimage2{
+    background-image:url(./images/page-header-cutout-desktop_5.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 400px;
+
+    height:500px;
+}
+.bgimage2 h1{
+    font-size: 45px;
+    padding-top: 80px;
+font-weight: lighter;
+width: 650px;
+}
+.bgimage2 p{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.moonimage img{
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+}
+.moonimage span{
+    font-size: 25px;
+}
+.moonimage i{
+    font-size: 22px;
+    color: blue;
+    margin: 10px 0 0 10px;
+}
+.moonimage p{
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.bgblue{
+    background-image: url(./images/bgblue.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    margin-top: 400px;
+    color: white;
+    padding-top: 90px;
+}
+.bgblue span{
+    font-size: 30px;
+    padding-top: 80px;
+font-weight: lighter;
+}
+.bgblue p{
+    font-size: 20px;
+    margin:5px 0 50px 0;
+}
+.btn2{
+    color:blue;
+    background-color:white;
+    padding: 15px 25px;
+    font-size: 15px;
+border-radius: 7px;
+font-weight: bold;
+border: none;
+}
+.logo{
+    margin: 40px 0;
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.7);
+    padding-bottom: 30px;
+}
+.logo img{
+    width: 90px;
+}
+.about p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.about span{
+font-weight: bold;
+margin-left: 6px;
+}
+.about i{
+    color: blue;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+    margin-top: 30px;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: blue;
+    padding:40px 0;
+    margin: 20px 0;
+    border-bottom:2.5px solid rgba(128, 128, 128, 0.7);
+    border-top:2.5px solid rgba(128, 128, 128, 0.7);
+}
+.list ul li{
+    font-size: 17px;
+    font-weight: bold;
+}
+.buton{
+        color:blue;
+        padding: 15px 25px;
+        font-size: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    border:1px  solid blue;
+}
+.icon i{
+    color:black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer_list ul{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.footer{
+    padding-top: 30px;
+    border-top:2.5px solid rgba(128, 128, 128, 0.7);
+    margin-top: 30px;
+}
+.footer_list{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+body{
+    font-family:Arial,Helvetica,sans-serif;
+}
